@@ -1,0 +1,136 @@
+[2018-09-20 13:14:41,995] multiqc                                            [DEBUG  ]  No MultiQC config found: /usr/local/lib/python2.7/dist-packages/multiqc_config.yaml
+[2018-09-20 13:14:41,995] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/rsh46/.multiqc_config.yaml
+[2018-09-20 13:14:41,995] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2018-09-20 13:14:42,001] multiqc                                            [DEBUG  ]  Loading config settings from: CTR_kf284_0003.config.yaml
+[2018-09-20 13:14:42,001] multiqc                                            [DEBUG  ]  New config 'custom_logo_url': http://www.trophoblast.cam.ac.uk/Resources/BioInformatics
+[2018-09-20 13:14:42,002] multiqc                                            [DEBUG  ]  New config 'fastqc_config': {'fastqc_theoretical_gc': 'mm10_genome'}
+[2018-09-20 13:14:42,002] multiqc                                            [DEBUG  ]  New config 'data_dir_name': CTR_kf284_0003.multiqc_data
+[2018-09-20 13:14:42,002] multiqc                                            [DEBUG  ]  New config 'subtitle': Centre for Trophoblast Research, University of Cambridge
+[2018-09-20 13:14:42,002] multiqc                                            [DEBUG  ]  New config 'fn_ignore_files': ['*tophatrun2.align_summary.txt']
+[2018-09-20 13:14:42,003] multiqc                                            [DEBUG  ]  New config 'title': Project ID ::: CTR_kf284_0003
+[2018-09-20 13:14:42,003] multiqc                                            [DEBUG  ]  New config 'intro_text': Created by CTR Bioinformatics
+[2018-09-20 13:14:42,003] multiqc                                            [DEBUG  ]  New config 'custom_logo_title': Centre for Trophoblast Research, University of Cambridge
+[2018-09-20 13:14:42,003] multiqc                                            [DEBUG  ]  New config 'report_header_info': [{'Analysis by:': 'Russell S. Hamilton'}, {'Contact E-mail:': 'rsh46@cam.ac.uk'}, {'Application Type:': 'RNA-seq'}, {'Project Type:': 'RNA-Seq Differential Analysis'}, {'Project Owners:': 'Damiano Barone'}, {'Sequencing Platform:': 'Illumina '}, {'Sequencing Setup:': '?E ??bp'}]
+[2018-09-20 13:14:42,055] multiqc                                            [DEBUG  ]  New config 'custom_logo': /storage/Logo/CTR_600.png
+[2018-09-20 13:14:42,055] multiqc                                            [DEBUG  ]  New config 'output_fn_name': CTR_kf284_0003.multiqc_report.html
+[2018-09-20 13:14:42,055] multiqc                                            [DEBUG  ]  Command used: /usr/local/bin/multiqc -f -c CTR_kf284_0003.config.yaml .
+[2018-09-20 13:14:42,573] multiqc                                            [WARNING]  MultiQC Version v1.6 now available!
+[2018-09-20 13:14:42,573] multiqc                                            [INFO   ]  This is MultiQC v1.4
+[2018-09-20 13:14:42,574] multiqc                                            [DEBUG  ]  Command     : /usr/local/bin/multiqc -f -c CTR_kf284_0003.config.yaml .
+[2018-09-20 13:14:42,574] multiqc                                            [DEBUG  ]  Working dir : /storage/CTR-Projects/CTR_kf284/CTR_kf284_0003
+[2018-09-20 13:14:42,574] multiqc                                            [INFO   ]  Template    : default
+[2018-09-20 13:14:42,575] multiqc                                            [INFO   ]  Report title: Project ID ::: CTR_kf284_0003
+[2018-09-20 13:14:42,575] multiqc                                            [INFO   ]  Searching '.'
+[2018-09-20 13:14:42,575] multiqc                                            [DEBUG  ]  Analysing modules: afterqc, custom_content, conpair, peddy, methylQA, qualimap, preseq, quast, qorts, rna_seqc, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, picard, prokka, samblaster, samtools, bamtools, jellyfish, vcftools, bbmap, bismark, hicexplorer, hicup, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, leehom, adapterRemoval, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, fastqc, clusterflow, bcl2fastq, interop
+[2018-09-20 13:14:42,576] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpACnE0k
+[2018-09-20 13:17:16,814] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2018-09-20 13:17:16,820] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2018-09-20 13:17:16,824] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2018-09-20 13:17:16,838] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2018-09-20 13:17:16,845] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2018-09-20 13:17:16,918] multiqc.modules.qualimap.qualimap                  [INFO   ]  Found 18 RNASeq reports
+[2018-09-20 13:17:16,921] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2018-09-20 13:17:16,924] multiqc                                            [DEBUG  ]  No samples found: quast
+[2018-09-20 13:17:16,927] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2018-09-20 13:17:16,933] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2018-09-20 13:17:16,937] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2018-09-20 13:17:16,945] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2018-09-20 13:17:16,949] multiqc                                            [DEBUG  ]  No samples found: busco
+[2018-09-20 13:17:16,953] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2018-09-20 13:17:16,956] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2018-09-20 13:17:16,960] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2018-09-20 13:17:16,965] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2018-09-20 13:17:16,977] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2018-09-20 13:17:16,991] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2018-09-20 13:17:16,996] multiqc                                            [DEBUG  ]  No samples found: homer
+[2018-09-20 13:17:16,999] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2018-09-20 13:17:17,002] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2018-09-20 13:17:17,007] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2018-09-20 13:17:17,013] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2018-09-20 13:17:21,800] multiqc.modules.htseq.htseq                        [INFO   ]  Found 18 reports
+[2018-09-20 13:17:21,804] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2018-09-20 13:17:21,821] multiqc.modules.featureCounts.feature_counts       [INFO   ]  Found 18 reports
+[2018-09-20 13:17:21,830] multiqc                                            [DEBUG  ]  No samples found: picard
+[2018-09-20 13:17:21,834] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2018-09-20 13:17:21,838] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2018-09-20 13:17:21,844] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2018-09-20 13:17:21,847] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2018-09-20 13:17:21,849] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2018-09-20 13:17:21,853] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2018-09-20 13:17:21,859] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2018-09-20 13:17:21,862] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2018-09-20 13:17:21,864] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2018-09-20 13:17:21,866] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2018-09-20 13:17:21,869] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2018-09-20 13:17:21,871] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2018-09-20 13:17:21,873] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2018-09-20 13:17:21,889] multiqc.modules.star.star                          [INFO   ]  Found 18 reports
+[2018-09-20 13:17:21,893] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2018-09-20 13:17:21,897] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2018-09-20 13:17:21,901] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2018-09-20 13:17:21,903] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2018-09-20 13:17:21,920] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2018-09-20 13:17:21,924] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2018-09-20 13:17:21,961] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D706rna_D503rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:21,973] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D704rna_D501rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:21,989] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D703rna_D501rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:21,991] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D706rna_D501rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:21,994] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D703rna_D503rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,000] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D701rna_D502rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,001] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D701rna_D503rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,005] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D702rna_D502rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,020] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D703rna_D502rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,021] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D701rna_D501rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,023] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D706rna_D502rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,025] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D702rna_D503rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,026] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D702rna_D501rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,030] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D704rna_D502rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,031] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D704rna_D503rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,033] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D705rna_D501rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,035] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D705rna_D502rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,037] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D705rna_D503rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:22,050] multiqc.modules.cutadapt.cutadapt                  [INFO   ]  Found 19 reports
+[2018-09-20 13:17:22,073] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2018-09-20 13:17:22,076] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2018-09-20 13:17:22,079] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2018-09-20 13:17:22,082] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2018-09-20 13:17:22,085] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2018-09-20 13:17:22,345] multiqc.modules.fastq_screen.fastq_screen          [INFO   ]  Found 18 reports
+[2018-09-20 13:17:22,881] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SLX-16086.D703rna_D503rna.H23LKBBXY.s_3.r_1_fastqc.zip' as already parsed 'SLX-16086.D703rna_D503rna.H23LKBBXY.s_3.r_1'
+[2018-09-20 13:17:23,172] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D704rna_D501rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:23,846] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SLX-16086.D706rna_D501rna.H23LKBBXY.s_3.r_1_fastqc.zip' as already parsed 'SLX-16086.D706rna_D501rna.H23LKBBXY.s_3.r_1'
+[2018-09-20 13:17:23,988] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D702rna_D501rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:24,077] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SLX-16086.D701rna_D501rna.H23LKBBXY.s_3.r_1_fastqc.zip' as already parsed 'SLX-16086.D701rna_D501rna.H23LKBBXY.s_3.r_1'
+[2018-09-20 13:17:24,214] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D704rna_D502rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:24,332] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SLX-16086.D706rna_D502rna.H23LKBBXY.s_3.r_1_fastqc.zip' as already parsed 'SLX-16086.D706rna_D502rna.H23LKBBXY.s_3.r_1'
+[2018-09-20 13:17:24,345] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D701rna_D502rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:24,639] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D706rna_D503rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:24,755] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SLX-16086.D703rna_D502rna.H23LKBBXY.s_3.r_1_fastqc.zip' as already parsed 'SLX-16086.D703rna_D502rna.H23LKBBXY.s_3.r_1'
+[2018-09-20 13:17:24,780] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D704rna_D503rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:24,960] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D703rna_D501rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:25,095] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D701rna_D503rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:25,209] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SLX-16086.D705rna_D502rna.H23LKBBXY.s_3.r_1_fastqc.zip' as already parsed 'SLX-16086.D705rna_D502rna.H23LKBBXY.s_3.r_1'
+[2018-09-20 13:17:25,255] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D705rna_D503rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:25,559] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SLX-16086.D705rna_D501rna.H23LKBBXY.s_3.r_1
+[2018-09-20 13:17:25,794] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SLX-16086.D702rna_D503rna.H23LKBBXY.s_3.r_1_fastqc.zip' as already parsed 'SLX-16086.D702rna_D503rna.H23LKBBXY.s_3.r_1'
+[2018-09-20 13:17:25,794] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SLX-16086.D702rna_D502rna.H23LKBBXY.s_3.r_1_fastqc.zip' as already parsed 'SLX-16086.D702rna_D502rna.H23LKBBXY.s_3.r_1'
+[2018-09-20 13:17:25,794] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 19 reports
+[2018-09-20 13:17:26,408] multiqc.modules.clusterflow.clusterflow            [INFO   ]  Found 2 pipelines
+[2018-09-20 13:17:26,408] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Found 2 log pipelines
+[2018-09-20 13:17:26,408] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Found 2 runfile pipelines
+[2018-09-20 13:17:26,434] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2018-09-20 13:17:26,437] multiqc                                            [DEBUG  ]  No samples found: interop
+[2018-09-20 13:17:26,512] multiqc                                            [INFO   ]  Compressing plot data
+[2018-09-20 13:17:28,823] multiqc                                            [INFO   ]  Report      : CTR_kf284_0003.multiqc_report.html
+[2018-09-20 13:17:28,823] multiqc                                            [INFO   ]  Data        : CTR_kf284_0003.multiqc_data
+[2018-09-20 13:17:28,823] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpACnE0k/multiqc_data/multiqc_clusterflow-pipelines-table.txt' to '/storage/CTR-Projects/CTR_kf284/CTR_kf284_0003/CTR_kf284_0003.multiqc_data'
+[2018-09-20 13:17:28,824] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpACnE0k/multiqc_data/multiqc_fastq_screen.txt' to '/storage/CTR-Projects/CTR_kf284/CTR_kf284_0003/CTR_kf284_0003.multiqc_data'
+[2018-09-20 13:17:28,824] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpACnE0k/multiqc_data/multiqc_fastqc.txt' to '/storage/CTR-Projects/CTR_kf284/CTR_kf284_0003/CTR_kf284_0003.multiqc_data'
+[2018-09-20 13:17:28,824] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpACnE0k/multiqc_data/multiqc_general_stats.txt' to '/storage/CTR-Projects/CTR_kf284/CTR_kf284_0003/CTR_kf284_0003.multiqc_data'
+[2018-09-20 13:17:28,824] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpACnE0k/multiqc_data/multiqc_cutadapt.txt' to '/storage/CTR-Projects/CTR_kf284/CTR_kf284_0003/CTR_kf284_0003.multiqc_data'
+[2018-09-20 13:17:28,824] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpACnE0k/multiqc_data/multiqc_featureCounts.txt' to '/storage/CTR-Projects/CTR_kf284/CTR_kf284_0003/CTR_kf284_0003.multiqc_data'
+[2018-09-20 13:17:28,825] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpACnE0k/multiqc_data/multiqc_data.json' to '/storage/CTR-Projects/CTR_kf284/CTR_kf284_0003/CTR_kf284_0003.multiqc_data'
+[2018-09-20 13:17:28,826] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpACnE0k/multiqc_data/multiqc_sources.txt' to '/storage/CTR-Projects/CTR_kf284/CTR_kf284_0003/CTR_kf284_0003.multiqc_data'
+[2018-09-20 13:17:28,827] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpACnE0k/multiqc_data/multiqc_star.txt' to '/storage/CTR-Projects/CTR_kf284/CTR_kf284_0003/CTR_kf284_0003.multiqc_data'
+[2018-09-20 13:17:28,827] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpACnE0k/multiqc_data/multiqc_htseq.txt' to '/storage/CTR-Projects/CTR_kf284/CTR_kf284_0003/CTR_kf284_0003.multiqc_data'
+[2018-09-20 13:17:29,039] multiqc                                            [INFO   ]  MultiQC complete

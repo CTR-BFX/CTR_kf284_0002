@@ -1,0 +1,3 @@
+Sample	Cluster Flow_pipeline_name	Cluster Flow_num_starting_files	Cluster Flow_pipeline_start	Cluster Flow_genome
+cf_fastq_star_1535970934	fastq_star	19	2018-09-03 11:35	GRCm38
+cf_htseq_counts_1536054701	htseq_counts	19	2018-09-04 10:51	GRCm38
