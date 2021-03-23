@@ -76,8 +76,8 @@ Samples were explanted at day 28 post-surgery.
 
 Script                      |   Description
 ----                        | ----
-CTR_kf284_0002.R  [CTR_kf284_0002.R](R_scripts/CTR_kf284_0002.R) |  Analysis and QC of Implants vs Nerve Injury Mouse RNA-seq.
-CTR_kf284_0003.R  [CTR_kf284_0003.R](R_scripts/CTR_kf284_0003.R) |  Analysis of MCC950 vs standard FBR treatment dexamethasone in a peripheral nerve damage and microchannel device implantation repair model.
+[CTR_kf284_0002.R](R_scripts/CTR_kf284_0002.R) |  Analysis and QC of Implants vs Nerve Injury Mouse RNA-seq.
+[CTR_kf284_0003.R](R_scripts/CTR_kf284_0003.R) |  Analysis of MCC950 vs standard FBR treatment dexamethasone in a peripheral nerve damage and microchannel device implantation repair model.
 
 
 ## Contact
