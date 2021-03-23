@@ -24,7 +24,8 @@ UpSetR is an alternative for plotting sets of data to visualise overlaps as a mo
 
 ## Bioinformatics Methods: Deconvolving RNA-Seq
 
-Samples were deconvolved for fractions of immune cell types present, using DeconRNASeq (Gong et al, 2013) and a signature matrix that distinguish 25 mouse hematopoietic cell types, including six major cell types, granulocytes, B cells, T cells, natural killer cells, dendritic cells and mono/macrophages (Chen et al, 2017)
+Samples were deconvoluted for the fractions of immune cell types present, using DeconRNASeq and a signature matrix that distinguish 25 mouse hematopoietic cell types, including six major cell types, granulocytes, B cells, T cells, natural killer cells, dendritic cells and mono/macrophages (see: Chen, Z. et al. (2017) Inference of immune cell composition on the expression profiles of mouse tissue. Scientific Reports 7, Article number: 40508).
+
 
 ## Software
 
@@ -65,9 +66,7 @@ Samples were explanted at day 28 post-surgery.
 
 
 
-### Deconvolution :: Data analysis:
 
-Samples were deconvoluted for the fractions of immune cell types present, using DeconRNASeq and a signature matrix that distinguish 25 mouse hematopoietic cell types, including six major cell types, granulocytes, B cells, T cells, natural killer cells, dendritic cells and mono/macrophages (see: Chen, Z. et al. (2017) Inference of immune cell composition on the expression profiles of mouse tissue. Scientific Reports 7, Article number: 40508).
 
 
 
